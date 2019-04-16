@@ -1,0 +1,11 @@
+{% block sw_condition_base_fields %}
+    <sw-select name="lunar-eclipse"
+               id="lunar-eclipse"
+               itemValueKey="value"
+               displayName="label"
+               :store="selectValues"
+               :required="true"
+               v-model="isLunarEclipse"
+               class="field--main">
+    </sw-select>
+{% endblock %}

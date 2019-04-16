@@ -1,0 +1,31 @@
+{
+    "name": "swag/custom-rule",
+    "description": "Plugin with a custom rule",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\CustomRule\\CustomRule",
+        "label": {
+            "de_DE": "Plugin mit einer individuellen Regel",
+            "en_GB": "Plugin with a custom rule"
+        },
+        "description": {
+            "de_DE": "Plugin mit einer individuellen Regel",
+            "en_GB": "Plugin with a custom rule"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\CustomRule\\": "src/"
+        }
+    }
+}
