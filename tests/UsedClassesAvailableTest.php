@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Swag\CustomServiceTests;
+namespace Swag\CustomRuleTests;
 
 use Shopware\Core\Framework\Test\TestCaseBase\IntegrationTestBehaviour;
 use PHPUnit\Framework\TestCase;
