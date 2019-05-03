@@ -15,6 +15,8 @@ class LunarEclipseRule extends Rule
 
     public function __construct()
     {
+        parent::__construct();
+
         // Will be overwritten at runtime. Reflects the expected value.
         $this->isLunarEclipse = false;
     }
