@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\CustomRule\\CustomRule",
         "label": {
-            "de-DE": "Plugin mit einer individuellen Regel",
-            "en-GB": "Plugin with a custom rule"
+            "de-DE": "Label für das CustomRule Plugin",
+            "en-GB": "Label for the CustomRule plugin"
         },
         "description": {
-            "de-DE": "Plugin mit einer individuellen Regel",
-            "en-GB": "Plugin with a custom rule"
+            "de-DE": "Beschreibung für das CustomRule Plugin",
+            "en-GB": "Description for the CustomRule plugin"
         }
     },
     "autoload": {
