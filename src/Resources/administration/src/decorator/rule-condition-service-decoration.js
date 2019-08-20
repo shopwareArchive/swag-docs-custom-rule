@@ -1,5 +1,6 @@
-import { Application } from 'src/core/shopware';
 import '../core/component/swag-lunar-eclipse';
+
+const { Application } = Shopware;
 
 Application.addServiceProviderDecorator('ruleConditionDataProviderService', (ruleConditionService) => {
     ruleConditionService.addCondition('lunar_eclipse', {
