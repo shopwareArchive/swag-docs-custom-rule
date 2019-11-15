@@ -1,1 +1,1 @@
-import './src/decorator/rule-condition-service-decoration';
+import './decorator/rule-condition-service-decoration';
