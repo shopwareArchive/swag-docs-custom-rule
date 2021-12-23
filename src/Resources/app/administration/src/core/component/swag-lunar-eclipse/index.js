@@ -1,4 +1,4 @@
-import { Component } from 'src/core/shopware';
+const { Component } = Shopware;
 import template from './swag-lunar-eclipse.html.twig';
 
 Component.extend('swag-lunar-eclipse', 'sw-condition-base', {
